@@ -1,0 +1,34 @@
+{
+  "name": "tiktok-shop-vn-commission-rates",
+  "title": "TikTok Shop Vietnam commission rates by category, effective-dated",
+  "description": "TikTok Shop Vietnam seller commission schedules effective 2026-05-09 and 2026-07-03 (Mall tier 2026-08-03), compared category by category. 1808 comparable categories: 1352 increased, 403 cut, 53 unchanged.",
+  "homepage": "https://ordinex.cc/en/tools/tiktok-shop-fees",
+  "licenses": [
+    { "name": "CC-BY-4.0", "path": "https://creativecommons.org/licenses/by/4.0/", "title": "Creative Commons Attribution 4.0 International" }
+  ],
+  "contributors": [{ "title": "Ordinex", "path": "https://ordinex.cc", "role": "author" }],
+  "keywords": ["tiktok-shop", "vietnam", "e-commerce", "commission", "marketplace-fees", "open-data"],
+  "resources": [
+    {
+      "name": "commission-diff",
+      "path": "data/tiktok-shop-vn-commission-diff.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          { "name": "group", "type": "string", "description": "Top-level category group, as published (Vietnamese)" },
+          { "name": "level_1", "type": "string" },
+          { "name": "level_2", "type": "string" },
+          { "name": "level_3", "type": "string" },
+          { "name": "standard_pct_old", "type": "number", "description": "Standard-shop commission before 2026-07-03, in percent" },
+          { "name": "standard_pct_new", "type": "number", "description": "Standard-shop commission from 2026-07-03, in percent" },
+          { "name": "standard_delta", "type": "number", "description": "Percentage-point change for standard shops" },
+          { "name": "mall_pct_old", "type": "number", "description": "Mall-shop commission before 2026-08-03, in percent" },
+          { "name": "mall_pct_new", "type": "number", "description": "Mall-shop commission from 2026-08-03, in percent" },
+          { "name": "mall_delta", "type": "number", "description": "Percentage-point change for Mall shops" }
+        ]
+      }
+    }
+  ]
+}
