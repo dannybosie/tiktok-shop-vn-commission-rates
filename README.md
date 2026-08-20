@@ -1,3 +1,5 @@
+**English** · [Tiếng Việt](README.vi.md)
+
 # TikTok Shop Vietnam: commission rates by category, effective-dated
 
 Open data: TikTok Shop Vietnam's seller commission schedule, at two points in
