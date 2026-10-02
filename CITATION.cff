@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "TikTok Shop Vietnam commission rates by category, effective-dated"
+abstract: >-
+  TikTok Shop Vietnam's seller commission schedules effective 2026-05-09,
+  2026-07-03 (Mall 2026-08-03) and 2026-10-20 (Mall), extracted from TikTok's
+  own PDFs and compared category by category. 1,824 categories are comparable
+  between May and July 2026: 1,366 increased, 404 were cut, 54 unchanged.
+authors:
+  - name: "Ordinex"
+    website: "https://ordinex.cc"
+version: "2026-10-02"
+date-released: "2026-10-02"
+license: CC-BY-4.0
+url: "https://ordinex.cc/en/tools/tiktok-shop-fees"
+repository: "https://github.com/dannybosie/tiktok-shop-vn-commission-rates"
+keywords:
+  - tiktok-shop
+  - vietnam
+  - e-commerce
+  - commission
+  - marketplace-fees
+  - open-data

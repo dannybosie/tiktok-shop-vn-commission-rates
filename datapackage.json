@@ -1,7 +1,8 @@
 {
   "name": "tiktok-shop-vn-commission-rates",
   "title": "TikTok Shop Vietnam commission rates by category, effective-dated",
-  "description": "TikTok Shop Vietnam seller commission schedules effective 2026-05-09 and 2026-07-03 (Mall tier 2026-08-03), compared category by category. 1808 comparable categories: 1352 increased, 403 cut, 53 unchanged.",
+  "version": "2026-10-02",
+  "description": "TikTok Shop Vietnam seller commission schedules effective 2026-05-09, 2026-07-03 (Mall tier 2026-08-03) and 2026-10-20 (Mall tier), compared category by category. 1824 categories comparable between May and July 2026: 1366 increased, 404 cut, 54 unchanged. From 2026-10-20, 41 Mall categories in Sách, tạp chí & âm thanh move to 12.5%.",
   "homepage": "https://ordinex.cc/en/tools/tiktok-shop-fees",
   "licenses": [
     { "name": "CC-BY-4.0", "path": "https://creativecommons.org/licenses/by/4.0/", "title": "Creative Commons Attribution 4.0 International" }
@@ -26,9 +27,13 @@
           { "name": "standard_delta", "type": "number", "description": "Percentage-point change for standard shops" },
           { "name": "mall_pct_old", "type": "number", "description": "Mall-shop commission before 2026-08-03, in percent" },
           { "name": "mall_pct_new", "type": "number", "description": "Mall-shop commission from 2026-08-03, in percent" },
-          { "name": "mall_delta", "type": "number", "description": "Percentage-point change for Mall shops" }
+          { "name": "mall_delta", "type": "number", "description": "Percentage-point change for Mall shops" },
+          { "name": "mall_pct_latest", "type": "number", "description": "Mall-shop commission in the newest schedule in this repository (2026-10-20), in percent; equals mall_pct_new except for 41 categories" }
         ]
       }
-    }
+    },
+    { "name": "schedule-2026-05-09", "path": "data/schedule-2026-05-09.json", "format": "json", "mediatype": "application/json", "encoding": "utf-8", "description": "Schedule effective 2026-05-09, as extracted" },
+    { "name": "schedule-2026-07-03", "path": "data/schedule-2026-07-03.json", "format": "json", "mediatype": "application/json", "encoding": "utf-8", "description": "Schedule effective 2026-07-03 (Mall tier 2026-08-03), as extracted" },
+    { "name": "schedule-2026-10-20", "path": "data/schedule-2026-10-20.json", "format": "json", "mediatype": "application/json", "encoding": "utf-8", "description": "Schedule effective 2026-10-20 for Mall shops (standard column restates 2026-07-03), as extracted" }
   ]
 }

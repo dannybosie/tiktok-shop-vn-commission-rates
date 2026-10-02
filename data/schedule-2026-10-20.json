@@ -1,25 +1,20 @@
 {
   "platform": "tiktok",
-  "version": "tiktok-2026-07-03-v2",
-  "source": "TikTok Shop Vietnam commission schedule (PDF), effective 2026-07-03 (Mall 2026-08-03)",
+  "version": "tiktok-2026-10-20-v3",
+  "source": "TikTok Shop Vietnam commission schedule (PDF), Mall effective 2026-10-20; the standard column restates 2026-07-03",
   "effectiveFrom": "2026-07-03",
   "standardEffectiveFrom": "2026-07-03",
-  "mallEffectiveFrom": "2026-08-03",
+  "mallEffectiveFrom": "2026-10-20",
   "defaults": [
     {
       "tier": "standard",
-      "pct": 14,
+      "pct": 14.0,
       "effectiveFrom": "2026-07-03"
     },
     {
       "tier": "mall",
-      "pct": 15.5,
-      "effectiveFrom": "2026-07-03"
-    },
-    {
-      "tier": "mall",
-      "pct": 16,
-      "effectiveFrom": "2026-08-03"
+      "pct": 16.0,
+      "effectiveFrom": "2026-10-20"
     }
   ],
   "entries": [
@@ -6317,7 +6312,7 @@
       "l2": "Sách dành cho trẻ em & trẻ sơ sinh",
       "l3": "Sách hoạt động",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6325,7 +6320,7 @@
       "l2": "Sách dành cho trẻ em & trẻ sơ sinh",
       "l3": "Khoa học xã hội và nhân văn cho thiếu nhi",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6333,7 +6328,7 @@
       "l2": "Sách dành cho trẻ em & trẻ sơ sinh",
       "l3": "Văn học & nghệ thuật thiếu nhi",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6341,7 +6336,7 @@
       "l2": "Sách dành cho trẻ em & trẻ sơ sinh",
       "l3": "Khoa học và công nghệ cho thiếu nhi",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6349,7 +6344,7 @@
       "l2": "Sách dành cho trẻ em & trẻ sơ sinh",
       "l3": "Sách giáo dục sớm & sách mềm",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6357,7 +6352,7 @@
       "l2": "Sách dành cho trẻ em & trẻ sơ sinh",
       "l3": "Sách tranh",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6365,7 +6360,7 @@
       "l2": "Kinh tế & Quản lý",
       "l3": "Kinh doanh & Quản lý",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6373,7 +6368,7 @@
       "l2": "Kinh tế & Quản lý",
       "l3": "Kinh tế",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6381,7 +6376,7 @@
       "l2": "Kinh tế & Quản lý",
       "l3": "Tài chính & Đầu tư",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6389,7 +6384,7 @@
       "l2": "Giáo dục & Trường học",
       "l3": "Ngôn ngữ & Từ điển",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6397,7 +6392,7 @@
       "l2": "Giáo dục & Trường học",
       "l3": "Sách tư vấn",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6405,7 +6400,7 @@
       "l2": "Giáo dục & Trường học",
       "l3": "Sách giáo khoa",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6413,7 +6408,7 @@
       "l2": "Khoa học xã hội và nhân văn",
       "l3": "Sự nghiệp & Tự lực",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6421,7 +6416,7 @@
       "l2": "Khoa học xã hội và nhân văn",
       "l3": "Lịch sử & Văn hóa",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6429,7 +6424,7 @@
       "l2": "Khoa học xã hội và nhân văn",
       "l3": "Nuôi dạy con cái & Gia đình",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6437,7 +6432,7 @@
       "l2": "Khoa học xã hội và nhân văn",
       "l3": "Chính trị, Luật & Khoa học xã hội",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6445,7 +6440,7 @@
       "l2": "Khoa học xã hội và nhân văn",
       "l3": "Tâm lý học & Mối quan hệ",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6453,7 +6448,7 @@
       "l2": "Khoa học xã hội và nhân văn",
       "l3": "Tôn giáo & Triết học",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6461,7 +6456,7 @@
       "l2": "Phong cách sống & Sở thích",
       "l3": "Truyện tranh & Manga",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6469,7 +6464,7 @@
       "l2": "Phong cách sống & Sở thích",
       "l3": "Thủ công mỹ nghệ & Tự làm",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6477,7 +6472,7 @@
       "l2": "Phong cách sống & Sở thích",
       "l3": "Thời trang & Làm đẹp",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6485,7 +6480,7 @@
       "l2": "Phong cách sống & Sở thích",
       "l3": "Sức khỏe, Thể hình & Ăn kiêng",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6493,7 +6488,7 @@
       "l2": "Phong cách sống & Sở thích",
       "l3": "Tử vi",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6501,7 +6496,7 @@
       "l2": "Phong cách sống & Sở thích",
       "l3": "Giáo dục thai sản & tiền sản",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6509,7 +6504,7 @@
       "l2": "Phong cách sống & Sở thích",
       "l3": "Công thức & Nấu nướng",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6517,7 +6512,7 @@
       "l2": "Phong cách sống & Sở thích",
       "l3": "Thể thao & Thể hình",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6525,7 +6520,7 @@
       "l2": "Phong cách sống & Sở thích",
       "l3": "Du lịch & Bản đồ",
       "standardPct": 14.0,
-      "mallPct": 16.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6533,7 +6528,7 @@
       "l2": "Văn học & Nghệ thuật",
       "l3": "Tiểu sử & Hồi ký",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6541,7 +6536,7 @@
       "l2": "Văn học & Nghệ thuật",
       "l3": "Phim điện ảnh & Truyền hình",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6549,7 +6544,7 @@
       "l2": "Văn học & Nghệ thuật",
       "l3": "Văn học",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6557,7 +6552,7 @@
       "l2": "Văn học & Nghệ thuật",
       "l3": "Âm nhạc",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6565,7 +6560,7 @@
       "l2": "Văn học & Nghệ thuật",
       "l3": "Viễn tưởng",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6573,7 +6568,7 @@
       "l2": "Văn học & Nghệ thuật",
       "l3": "Vẽ tranh & Thiết kế",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6581,7 +6576,7 @@
       "l2": "Văn học & Nghệ thuật",
       "l3": "Biểu diễn nghệ thuật",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6589,7 +6584,7 @@
       "l2": "Văn học & Nghệ thuật",
       "l3": "Nhiếp ảnh & Video",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6629,7 +6624,7 @@
       "l2": "Khoa học & Công nghệ",
       "l3": "Nông lâm ngư nghiệp",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6637,7 +6632,7 @@
       "l2": "Khoa học & Công nghệ",
       "l3": "Kiến trúc",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6645,7 +6640,7 @@
       "l2": "Khoa học & Công nghệ",
       "l3": "Máy tính & Mạng",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6653,7 +6648,7 @@
       "l2": "Khoa học & Công nghệ",
       "l3": "Công nghệ công nghiệp",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6661,7 +6656,7 @@
       "l2": "Khoa học & Công nghệ",
       "l3": "Y khoa",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",
@@ -6669,7 +6664,7 @@
       "l2": "Khoa học & Công nghệ",
       "l3": "Khoa học tự nhiên",
       "standardPct": 13.5,
-      "mallPct": 15.0
+      "mallPct": 12.5
     },
     {
       "group": "Tạp hoá",

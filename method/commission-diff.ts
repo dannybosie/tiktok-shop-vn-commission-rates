@@ -21,12 +21,18 @@ export type CategoryKey = string
  * that group from the comparison, so the key folds case and collapses runs of
  * whitespace. Display always uses the newer matrix's spelling.
  *
+ * The same drift happens in Unicode: a PDF text layer can store a diacritic as
+ * a separate combining mark where the next edition has the precomposed letter.
+ * The two render identically but compare unequal, which split 16 categories
+ * (the whole "Đồ uống" branch among them) into a removed one and an added one.
+ * The key therefore folds to NFC first.
+ *
  * Levels are joined with NUL, which cannot occur in a category name, so
  * ("a b", null) and ("a", "b") stay distinct keys.
  */
 export function categoryKey(e: Pick<CommissionEntry, 'group' | 'l1' | 'l2' | 'l3'>): CategoryKey {
   return [e.group, e.l1, e.l2 ?? '', e.l3 ?? '']
-    .map((s) => s.trim().replace(/\s+/g, ' ').toLowerCase())
+    .map((s) => s.normalize('NFC').trim().replace(/\s+/g, ' ').toLowerCase())
     .join('\0')
 }
 
